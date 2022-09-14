@@ -189,7 +189,7 @@ const MainVisual = () => {
                     <div className="topRate on">
                         <strong>
                             드라마 수상 내역
-                            <i className="xi-angle-down-min"></i>
+                            {/* <i className="xi-angle-down-min"></i> */}
                         </strong>
                         <p>
                             Top rated TV #2 16개 수상 & Primetime Emmys 154개
@@ -200,7 +200,7 @@ const MainVisual = () => {
                                 {AWARDSINFO.map((el) => {
                                     return (
                                         <li key={el.id}>
-                                            <a key={el.link}>
+                                            <a href={el.link}>
                                                 <figure></figure>
                                                 <p>{el.name}</p>
                                             </a>

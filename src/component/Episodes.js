@@ -1,121 +1,93 @@
+const EPISODEINFO = [
+    {
+        id: 1,
+        link: "/",
+        date: "2013-09-15 방영",
+        episode: "시즌5 14화",
+        title: "Ozymandias",
+        best: "최고의 평가",
+        story: "월트는 도망간다. 제시는 인질로 잡힌다. 마리는 스카일러가 월터 주니어에게 진실을 말하도록 설득한다.",
+        rate: "10",
+    },
+    {
+        id: 2,
+        link: "/",
+        date: "2013-09-29 방영",
+        episode: "시즌5 16화",
+        title: "Felina",
+        best: "최고의 평가",
+        story: "월트는 도망간다. 제시는 인질로 잡힌다. 마리는 스카일러가 월터 주니어에게 진실을 말하도록 설득한다.",
+        rate: "9.9",
+    },
+    {
+        id: 3,
+        link: "/",
+        date: "2013-09-22 방영",
+        episode: "시즌5 15화",
+        title: "Granite State",
+        best: "최고의 평가",
+        story: "월트는 도망간다. 제시는 인질로 잡힌다. 마리는 스카일러가 월터 주니어에게 진실을 말하도록 설득한다.",
+        rate: "9.5",
+    },
+];
+
 const Episodes = () => {
     return (
-        <section class="episodes sectInter">
-            <div class="container">
+        <section className="episodes sectInter">
+            <div className="container">
                 <a href="/#">
                     <h2>
                         에피소드 <span>62</span>
-                        <i class="xi-angle-right"></i>
+                        <i className="xi-angle-right"></i>
                     </h2>
                 </a>
-                <div class="content">
+                <div className="content">
                     <ul>
-                        <li>
-                            <div class="box box01">
-                                <div class="left">
-                                    <a href="/#">
-                                        <figure></figure>
-                                    </a>
-                                </div>
-                                <div class="right">
-                                    <p>최고의 평가</p>
-                                    <span>2013-09-15 방영</span>
-                                    <a href="/#">
-                                        <h3>시즌5 14화</h3>
-                                        <p>
-                                            Ozymandias
-                                            <i class="xi-external-link"></i>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="txt">
-                                <p>
-                                    월트는 도망간다. 제시는 인질로 잡힌다.
-                                    마리는 스카일러가 월터 주니어에게 진실을
-                                    말하도록 설득한다.
-                                </p>
-                                <div class="rate">
-                                    <i class="xi-star"></i>
-                                    <span>10/10</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="box box02">
-                                <div class="left">
-                                    <a href="/#">
-                                        <figure></figure>
-                                    </a>
-                                </div>
-                                <div class="right">
-                                    <span>2013-09-29 방영</span>
-                                    <a href="/#">
-                                        <h3>시즌5 16화</h3>
-                                        <p>
-                                            Felina
-                                            <i class="xi-external-link"></i>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="txt">
-                                <p>
-                                    월트는 도망간다. 제시는 인질로 잡힌다.
-                                    마리는 스카일러가 월터 주니어에게 진실을
-                                    말하도록 설득한다.
-                                </p>
-                                <div class="rate">
-                                    <i class="xi-star"></i>
-                                    <span>9.9/10</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="box box03">
-                                <div class="left">
-                                    <a href="/#">
-                                        <figure></figure>
-                                    </a>
-                                </div>
-                                <div class="right">
-                                    <span>2013-09-22 방영</span>
-                                    <a href="/#">
-                                        <h3>시즌5 15화</h3>
-                                        <p>
-                                            Granite State
-                                            <i class="xi-external-link"></i>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="txt">
-                                <p>
-                                    월트는 도망간다. 제시는 인질로 잡힌다.
-                                    마리는 스카일러가 월터 주니어에게 진실을
-                                    말하도록 설득한다.
-                                </p>
-                                <div class="rate">
-                                    <i class="xi-star"></i>
-                                    <span>9.5/10</span>
-                                </div>
-                            </div>
-                        </li>
+                        {EPISODEINFO.map((el, idx) => {
+                            return (
+                                <li key={el.id}>
+                                    <div className={`box box0${idx + 1}`}>
+                                        <div className="left">
+                                            <a href={el.link}>
+                                                <figure></figure>
+                                            </a>
+                                        </div>
+                                        <div className="right">
+                                            <p>{el.best}</p>
+                                            <span>{el.date}</span>
+                                            <a href={el.link}>
+                                                <h3>{el.episode}</h3>
+                                                <p>
+                                                    {el.title}
+                                                    <i className="xi-external-link"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="txt">
+                                        <p>{el.story}</p>
+                                        <div className="rate">
+                                            <i className="xi-star"></i>
+                                            <span>{el.rate}/10</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            );
+                        })}
                     </ul>
-                    <div class="filter">
+                    <div className="filter">
                         <span>에피소드 찾기</span>
                         <a href="/#">Top-rated</a>
                         <a href="/#">
-                            5 seasons <i class="xi-caret-down"></i>
+                            5 seasons<i className="xi-caret-down"></i>
                         </a>
                         <a href="/#">
-                            7 years
-                            <i class="xi-caret-down"></i>
+                            7 years<i className="xi-caret-down"></i>
                         </a>
                     </div>
                 </div>
-                <div class="moments">
-                    <div class="left">
+                <div className="moments">
+                    <div className="left">
                         <h3>
                             <span>Breaking Bad</span>
                             <br />
@@ -135,10 +107,10 @@ const Episodes = () => {
                                 에서 "<strong>Breaking Bad</strong>" 최고의
                                 명장면 모아보기
                             </span>
-                            <i class="xi-external-link"></i>
+                            <i className="xi-external-link"></i>
                         </a>
                     </div>
-                    <div class="right">
+                    <div className="right">
                         <iframe
                             width="585"
                             height="329"
