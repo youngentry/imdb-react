@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/imdb-react/static/css/main.882a28a7.css",
+    "main.js": "/imdb-react/static/js/main.bd91a650.js",
+    "static/media/g03.jpg": "/imdb-react/static/media/g03.331cee5388a613714d84.jpg",
+    "static/media/g01.jpg": "/imdb-react/static/media/g01.e67ac44b8ce5c6ea6867.jpg",
+    "static/media/g02.jpg": "/imdb-react/static/media/g02.7e4364b5b4b1d903387f.jpg",
+    "static/media/e01.jpg": "/imdb-react/static/media/e01.565c1778aa2a4cb90680.jpg",
+    "static/media/g04.jpg": "/imdb-react/static/media/g04.b163856ca0917edfd544.jpg",
+    "static/media/Vince-Gilligan-Sony.jpg": "/imdb-react/static/media/Vince-Gilligan-Sony.5c1ac17f844d72ad0e7c.jpg",
+    "static/media/m02.jpg": "/imdb-react/static/media/m02.2647304e3b1f0634ef85.jpg",
+    "static/media/bryan02.jpg": "/imdb-react/static/media/bryan02.a8fee40656bad17307e1.jpg",
+    "static/media/pen_america.png": "/imdb-react/static/media/pen_america.d69d09f70194e29669e8.png",
+    "static/media/anna02.jpg": "/imdb-react/static/media/anna02.9389219698736565f8f5.jpg",
+    "static/media/e03.jpg": "/imdb-react/static/media/e03.67559a1c363fa62c4f55.jpg",
+    "static/media/anna.jpg": "/imdb-react/static/media/anna.cd70c75078bd03ddf39f.jpg",
+    "static/media/betsy.jpg": "/imdb-react/static/media/betsy.310957fff7ecd1c58fa6.jpg",
+    "index.html": "/imdb-react/index.html",
+    "main.882a28a7.css.map": "/imdb-react/static/css/main.882a28a7.css.map",
+    "main.bd91a650.js.map": "/imdb-react/static/js/main.bd91a650.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.882a28a7.css",
+    "static/js/main.bd91a650.js"
+  ]
+}
