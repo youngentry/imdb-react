@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const MOVIEINFO = [
     {
         id: 1,
@@ -10,6 +12,7 @@ const MOVIEINFO = [
     },
     {
         id: 2,
+        link: "/",
         src: "./img/similar/el-camio-a-breaking-bad-movie.jpg",
         title: "Better Call Saul",
         score: "8.9",
@@ -18,6 +21,7 @@ const MOVIEINFO = [
     },
     {
         id: 3,
+        link: "/",
         src: "./img/similar/game-of-thrones.jpg",
         title: "Better Call Saul",
         score: "8.9",
@@ -26,6 +30,7 @@ const MOVIEINFO = [
     },
     {
         id: 4,
+        link: "/",
         src: "./img/similar/stranger-things.jpg",
         title: "Better Call Saul",
         score: "8.9",
@@ -99,7 +104,15 @@ const Similar = () => {
                                 <li key={el.id}>
                                     <a href={el.link}>
                                         <figure>
-                                            <div className="bookmark"></div>
+                                            <div
+                                                className="bookmark"
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    e.target.classList.toggle(
+                                                        "on"
+                                                    );
+                                                }}
+                                            ></div>
                                             <img src={el.src} alt="" />
                                         </figure>
                                     </a>

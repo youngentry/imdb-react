@@ -244,10 +244,18 @@ h2 span {
     color: var(--gb);
 }
 .bookmark:hover {
+    border-top: 20px solid #f5c518a2;
+    border-left: 20px solid #f5c518a2;
+    border-right: 20px solid #f5c518a2;
+}
+.bookmark:hover::after {
+    color: #fff;
+}
+.bookmark.on {
     border-top: 20px solid #f5c518;
     border-left: 20px solid #f5c518;
     border-right: 20px solid #f5c518;
 }
-.bookmark:hover::after {
+.bookmark.on::after {
     color: #fff;
 }

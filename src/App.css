@@ -45,11 +45,13 @@
 .header .pro {
     margin-left: 10px;
     margin-right: auto;
-    padding: 10px;
-    border-radius: 5px;
 }
-.header .pro:hover {
+.header .pro a {
+    padding: 10px 15px;
+}
+.header .pro a:hover {
     background: #333;
+    border-radius: 5px;
 }
 .header .pro img {
     height: 18px;
@@ -213,14 +215,16 @@
     gap: 10px;
     padding-bottom: 20px;
 }
-.mainVisual .visual figure:hover {
+.mainVisual .visual img:hover {
     filter: brightness(0.9);
 }
 .mainVisual .visual .left figure {
-    background: url(../public/img/mainVisual/m01.jpg) no-repeat center
-        center/cover;
     height: 500px;
     width: 320px;
+    border-radius: 5px;
+}
+.mainVisual .visual .left figure img {
+    height: 100%;
     border-radius: 5px;
 }
 .mainVisual .visual .center {
@@ -231,9 +235,10 @@
         center/cover;
     height: 500px;
     width: 870px;
-}
-.mainVisual .visual .center figure {
     border-radius: 5px;
+}
+.mainVisual .visual .center figure:hover {
+    filter: brightness(0.9);
 }
 .mainVisual .visual .inner {
     position: absolute;
@@ -313,6 +318,7 @@
     gap: 30px;
     padding-right: 60px;
     padding-bottom: 30px;
+    font-weight: 300;
 }
 .mainVisual .des .produce figure {
     border-radius: 5px;
@@ -915,6 +921,7 @@
     vertical-align: 100%;
 }
 .similar .title .rate i {
+    margin-right: 3px;
     color: var(--yc);
 }
 .similar .genre {
@@ -970,7 +977,8 @@
     background: #444;
 }
 .similar .btn i {
-    vertical-align: -0%;
+    margin-left: 2px;
+    vertical-align: 0;
     transform: translateX(-1px);
 }
 

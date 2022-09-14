@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const MAINMENU = [
     { id: 1, menu: "캐스트 & 배우", link: "/" },
     { id: 2, menu: "이용자 리뷰", link: "/" },
@@ -29,6 +31,7 @@ const AWARDSINFO = [
 ];
 
 const MainVisual = () => {
+    const [TG, setTG] = useState(false);
     return (
         <section className="mainVisual sectInter">
             <div className="container">
@@ -97,7 +100,17 @@ const MainVisual = () => {
                         <div className="left">
                             <a href="/#">
                                 <figure>
-                                    <div className="bookmark"></div>
+                                    <div
+                                        className={`bookmark ${TG ? "on" : ""}`}
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            return setTG(!TG);
+                                        }}
+                                    ></div>
+                                    <img
+                                        src="./img/mainVisual/m01.jpg"
+                                        alt=""
+                                    />
                                 </figure>
                             </a>
                         </div>

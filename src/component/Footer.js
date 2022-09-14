@@ -9,7 +9,7 @@ const REFMENU = [
     { id: 1, link: "/", menu: "IMDb App 다운로드" },
     { id: 2, link: "/", menu: "지원" },
     { id: 3, link: "/", menu: "ImDbPro" },
-    { id: 4, link: "/", menu: "박스 오피스 Mojo" },
+    { id: 4, link: "/", menu: "Mojo 박스 오피스" },
     { id: 5, link: "/", menu: "IMDb 개발 정보" },
     { id: 6, link: "/", menu: "언론 보도" },
     { id: 7, link: "/", menu: "홍보" },
