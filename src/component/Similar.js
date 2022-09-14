@@ -50,11 +50,11 @@ MOVIEINFO.map((el) => {
             </a>
             <div className="info">
                 <div className="title">
-                    <a href="/#">
+                    <a href="/">
                         <h3>{el.title}</h3>
                     </a>
                     <div className="rate">
-                        <a href="/#">
+                        <a href="/">
                             <i className="xi-star"></i>
                             <span>{el.score}</span>
                         </a>
@@ -69,16 +69,16 @@ MOVIEINFO.map((el) => {
                         <span>주연</span>
                     </div>
                     <div className="right">
-                        <a href="/#">Bob Odenkirk</a>
-                        <a href="/#">Rhea Seehorn</a>
-                        <a href="/#">Jonathan Banks</a>
+                        <a href="/">Bob Odenkirk</a>
+                        <a href="/">Rhea Seehorn</a>
+                        <a href="/">Jonathan Banks</a>
                     </div>
                 </div>
                 <div className="btn">
-                    <a href="/#" className="trailer">
+                    <a href="/" className="trailer">
                         트레일러 <i className="xi-play"></i>
                     </a>
-                    <a href="/#" className="addWatch">
+                    <a href="/" className="addWatch">
                         워치리스트
                         <i className="xi-plus-min"></i>
                     </a>
@@ -92,7 +92,7 @@ const Similar = () => {
     return (
         <section className="similar">
             <div className="container">
-                <a href="/#">
+                <a href="/">
                     <h2>
                         비슷한 작품 <i className="xi-angle-right"></i>
                     </h2>
@@ -118,11 +118,11 @@ const Similar = () => {
                                     </a>
                                     <div className="info">
                                         <div className="title">
-                                            <a href="/#">
+                                            <a href="/">
                                                 <h3>{el.title}</h3>
                                             </a>
                                             <div className="rate">
-                                                <a href="/#">
+                                                <a href="/">
                                                     <i className="xi-star"></i>
                                                     <span>{el.score}</span>
                                                 </a>
@@ -137,17 +137,17 @@ const Similar = () => {
                                                 <span>주연</span>
                                             </div>
                                             <div className="right">
-                                                <a href="/#">Bob Odenkirk</a>
-                                                <a href="/#">Rhea Seehorn</a>
-                                                <a href="/#">Jonathan Banks</a>
+                                                <a href="/">Bob Odenkirk</a>
+                                                <a href="/">Rhea Seehorn</a>
+                                                <a href="/">Jonathan Banks</a>
                                             </div>
                                         </div>
                                         <div className="btn">
-                                            <a href="/#" className="trailer">
+                                            <a href="/" className="trailer">
                                                 트레일러{" "}
                                                 <i className="xi-play"></i>
                                             </a>
-                                            <a href="/#" className="addWatch">
+                                            <a href="/" className="addWatch">
                                                 워치리스트
                                                 <i className="xi-plus-min"></i>
                                             </a>

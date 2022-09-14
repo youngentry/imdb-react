@@ -35,7 +35,7 @@ const Episodes = () => {
     return (
         <section className="episodes sectInter">
             <div className="container">
-                <a href="/#">
+                <a href="/">
                     <h2>
                         에피소드 <span>62</span>
                         <i className="xi-angle-right"></i>
@@ -77,11 +77,11 @@ const Episodes = () => {
                     </ul>
                     <div className="filter">
                         <span>에피소드 찾기</span>
-                        <a href="/#">Top-rated</a>
-                        <a href="/#">
+                        <a href="/">Top-rated</a>
+                        <a href="/">
                             5 seasons<i className="xi-caret-down"></i>
                         </a>
-                        <a href="/#">
+                        <a href="/">
                             7 years<i className="xi-caret-down"></i>
                         </a>
                     </div>
@@ -101,7 +101,7 @@ const Episodes = () => {
                             재방문할 가치가 있는 현대 고전에서 가장 충격적인
                             순간들의 목록을 작성했다.
                         </p>
-                        <a href="/#">
+                        <a href="/">
                             <img src="./img/IMDB_Logo_2016.svg.png" alt="" />
                             <span>
                                 에서 "<strong>Breaking Bad</strong>" 최고의

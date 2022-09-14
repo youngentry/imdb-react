@@ -33,7 +33,7 @@ const Gallery = () => {
     return (
         <section className="gallery sectInter">
             <div className="container">
-                <a href="/#">
+                <a href="/">
                     <h2>
                         갤러리 <span>1924+</span>
                         <i className="xi-angle-right"></i>

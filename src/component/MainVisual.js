@@ -37,7 +37,7 @@ const MainVisual = () => {
             <div className="container">
                 <div className="index">
                     <div className="left">
-                        <a href="/#">
+                        <a href="/">
                             에피소드 가이드<span>62</span>
                             <i className="xi-external-link"></i>
                         </a>
@@ -52,7 +52,7 @@ const MainVisual = () => {
                                 );
                             })}
                             <div>
-                                <a href="/#">
+                                <a href="/">
                                     <i className="xi-share-alt-o"></i>
                                 </a>
                             </div>
@@ -98,7 +98,7 @@ const MainVisual = () => {
                     </div>
                     <div className="visual">
                         <div className="left">
-                            <a href="/#">
+                            <a href="/">
                                 <figure>
                                     <div
                                         className={`bookmark ${TG ? "on" : ""}`}
@@ -115,7 +115,7 @@ const MainVisual = () => {
                             </a>
                         </div>
                         <div className="center">
-                            <a href="/#">
+                            <a href="/">
                                 <figure></figure>
                                 <div className="inner">
                                     <div>
@@ -159,7 +159,7 @@ const MainVisual = () => {
                                 <div className="creator">
                                     <strong>제작</strong>
 
-                                    <a href="/#">
+                                    <a href="/">
                                         <figure></figure>
                                         Vince Gilligan
                                     </a>
@@ -185,7 +185,7 @@ const MainVisual = () => {
                                     </ul>
                                 </div>
                                 <div className="info">
-                                    <a href="/#">
+                                    <a href="/">
                                         <img
                                             src="./img/imdb_pro_logo-cut.png"
                                             alt=""
@@ -194,7 +194,7 @@ const MainVisual = () => {
                                     <p>유명한 사진, 비디오 및 크레딧</p>
                                     <p>업계 최고의 검색 및 검색 경험 액세스</p>
                                     <p>연락처 정보, 공유 연결 통계 보기</p>
-                                    <a href="/#">모든 혜택 이용하기</a>
+                                    <a href="/">모든 혜택 이용하기</a>
                                 </div>
                             </div>
                         </div>

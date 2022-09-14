@@ -25,7 +25,7 @@ const Reviews = () => {
     return (
         <section className="reviews sectInter">
             <div className="container">
-                <a href="/#">
+                <a href="/">
                     <h2>
                         리뷰 <span>4.5K</span>
                         <i className="xi-angle-right"></i>
@@ -39,12 +39,12 @@ const Reviews = () => {
                                     <div className="top">
                                         <span>최고의 리뷰</span>
                                         <div>
-                                            <a href="/#">
+                                            <a href="/">
                                                 <i className="xi-ellipsis-h ellipsis"></i>
                                             </a>
                                         </div>
                                     </div>
-                                    <a href="/#">
+                                    <a href="/">
                                         <h3>{el.title}</h3>
                                     </a>
                                     <div className="txt">
@@ -52,17 +52,17 @@ const Reviews = () => {
                                     </div>
                                     <div className="info">
                                         <div className="evaluate">
-                                            <a href="/#">
+                                            <a href="/">
                                                 <i className="xi-heart heart"></i>
                                                 <span>{el.heartCount}</span>
                                             </a>
-                                            <a href="/#">
+                                            <a href="/">
                                                 <i className="xi-star"></i>
                                                 <span>{el.recommend} / 10</span>
                                             </a>
                                         </div>
                                         <div className="userName">
-                                            <a href="/#"> {el.username}</a>
+                                            <a href="/"> {el.username}</a>
                                             <span>{el.date}</span>
                                         </div>
                                     </div>

@@ -59,7 +59,7 @@ const Cast = () => {
     return (
         <section className="cast sectInter">
             <div className="container">
-                <a href="/#">
+                <a href="/">
                     <h2>
                         출연 배우 <i className="xi-angle-right"></i>
                     </h2>
@@ -70,18 +70,18 @@ const Cast = () => {
                             return (
                                 <li key={el.id}>
                                     <div className="left">
-                                        <a href="/#">
+                                        <a href="/">
                                             <figure></figure>
                                         </a>
                                     </div>
                                     <div className="right">
-                                        <a href="/#">
+                                        <a href="/">
                                             <strong> {el.actor}</strong>
                                         </a>
-                                        <a href="/#">
+                                        <a href="/">
                                             <span>{el.role}</span>
                                         </a>
-                                        <a href="/#">
+                                        <a href="/">
                                             <p>
                                                 {el.episode}
                                                 <i className="xi-angle-down-min"></i>

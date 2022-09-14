@@ -22,7 +22,7 @@ const Header = () => {
                         </button>
                     </form>
                     <div className="pro">
-                        <a href="/#">
+                        <a href="/">
                             <img src="./img/imdb_pro_logo-cut.png" alt="" />
                         </a>
                     </div>
@@ -36,7 +36,7 @@ const Header = () => {
                         })}
                     </ul>
                     <div className="menuBtn">
-                        <a href="/#">
+                        <a href="/">
                             <i className="xi-bars"></i>
                         </a>
                     </div>
