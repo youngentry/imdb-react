@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/imdb-react/static/css/main.882a28a7.css",
-    "main.js": "/imdb-react/static/js/main.c168c067.js",
+    "main.js": "/imdb-react/static/js/main.f7c798c4.js",
     "static/media/g03.jpg": "/imdb-react/static/media/g03.331cee5388a613714d84.jpg",
     "static/media/g01.jpg": "/imdb-react/static/media/g01.e67ac44b8ce5c6ea6867.jpg",
     "static/media/g02.jpg": "/imdb-react/static/media/g02.7e4364b5b4b1d903387f.jpg",
@@ -17,10 +17,10 @@
     "static/media/betsy.jpg": "/imdb-react/static/media/betsy.310957fff7ecd1c58fa6.jpg",
     "index.html": "/imdb-react/index.html",
     "main.882a28a7.css.map": "/imdb-react/static/css/main.882a28a7.css.map",
-    "main.c168c067.js.map": "/imdb-react/static/js/main.c168c067.js.map"
+    "main.f7c798c4.js.map": "/imdb-react/static/js/main.f7c798c4.js.map"
   },
   "entrypoints": [
     "static/css/main.882a28a7.css",
-    "static/js/main.c168c067.js"
+    "static/js/main.f7c798c4.js"
   ]
 }
